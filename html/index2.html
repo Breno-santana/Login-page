@@ -9,32 +9,32 @@
 </head>
 <body>
     <main id="principal">
-        <section class="box-signin">
+        <section class="box-signin form-flex">
             <form action="/js/index.js" method="post" autocomplete="on">
                 <h1>Sig In</h1>
-                <div class="div-nome"> 
+                <div class="div-nome label-float"> 
                     <label for="nome">Name</label>
                     <input type="text" name="nome" id="nome" required>
                 </div>  
-                <div class="div-sobrenome">
+                <div class="div-sobrenome label-float">
                     <label for="nome">Last name</label>
                     <input type="text" name="sobrenome" id="sobrenome" required>
                 </div>  
-                <div class="div-email">
+                <div class="div-email label-float">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email" required minlength="10" maxlength="20">
                 </div>  
-                <div class="div-senha">
+                <div class="div-senha label-float">
                     <label for="senha">Password</label>
-                    <input type="password" name="senha" id="senha" required>
+                    <input type="password" name="senha" id="senha" required minlength="10" maxlength="20">
                 </div>  
-                <div class="div-telefone">
+                <div class="div-telefone label-float">
                     <label for="telefone">Telephone</label>
-                    <input type="number" name="telefone" id="telefone" required>
+                    <input type="number" name="telefone" id="telefone" required list="none">
                 </div>  
                 <div class="div-checkbox-termos">
                     <input type="checkbox" name="termos" id="termos" required>
-                    <label for="termos">Termos</label>
+                    <label for="termos">I accept all terms and privacy</label>
                 </div>
                 <div class="div-submit-btn">
                     <button type="submit" class="btn-submit">Sign In</button>
