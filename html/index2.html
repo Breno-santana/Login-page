@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/css/style2.css">
+</head>
+<body>
+    <main id="principal">
+        <section class="box-signin">
+            <form action="/js/index.js" method="post" autocomplete="on">
+                <h1>Sig In</h1>
+                <div class="div-nome"> 
+                    <label for="nome">Name</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>  
+                <div class="div-sobrenome">
+                    <label for="nome">Last name</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>  
+                <div class="div-email">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                </div>  
+                <div class="div-senha">
+                    <label for="senha">Password</label>
+                    <input type="password" name="senha" id="senha" required>
+                </div>  
+                <div class="div-telefone">
+                    <label for="telefone">Telephone</label>
+                    <input type="number" name="telefone" id="telefone" required>
+                </div>  
+                <div class="div-checkbox-termos">
+                    <input type="checkbox" name="termos" id="termos" required>
+                    <label for="termos">Termos</label>
+                </div>
+                <div class="div-submit-btn">
+                    <button type="submit" class="btn-submit">Sign In</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title> 
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="/html/index2.html"><button class="sign-up-btn">Sign Up</button></a>
+    </header>
+    <main id="principal">
+        <section class="form-box form-flex">
+            <form action="/js/index.js" method="post" autocomplete="on" name="formulario" id="formulario">
+                <h1>Sign In</h1>
+                <div class="user label-float">
+                    <!--Área de uuário-->
+                    <input type="text" name="user" id="user" required maxlength="20" minlength="5" placeholder=" ">
+                    <label for="buser">Username</label>
+                </div>
+                <div class="password label-float">
+                    <!--Área de password-->
+                    <input type="password" name="pass" id="pass" required maxlength="16" minlength="8" placeholder=" ">
+                    <label for="bpass">Password</label>
+                </div>
+                <div class="submit">
+                    <!--Submit login-->
+                    <button type="submit" class="btn-submit" onclick="validar()">Sign In</button>
+                </div>
+                <div class="esqueceu-senha">
+                    <!--Recuperação ou mudança de senha-->
+                    <a href="#" class="ancora-mudanca-senha">Forgot password?</a>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="/js/index.js"></script>
+</body>
+</html>
