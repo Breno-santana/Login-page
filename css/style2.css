@@ -13,17 +13,20 @@ body {
   background-size: 100%;
 }
 
-body::-webkit-scrollbar {
-  background-color: #024e43;
+/*
+SCROLLBAR
+
+body::-webkit-scrollbar{
+    background-color: #024e43;
 }
 
-body::-webkit-scrollbar-thumb {
-  background-color: #00ffd9;
+body::-webkit-scrollbar-thumb{
+    background-color: #00ffd9;
 }
-
+*/
 #principal {
   margin-bottom: 9rem 0rem;
-  /*Efeito label-float*/
+  /*Efeito label-float (Inicio)*/
   /*
   .label-float input:required:invalid + label{
       color: red;
@@ -32,12 +35,13 @@ body::-webkit-scrollbar-thumb {
   .label-float input:required:invalid + label::before{
       content: '*';
   }*/
+  /*Efeito label-float (Fim)*/
 }
 #principal .box-signin {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 20%);
+  transform: translate(-50%, 10%);
   width: 400px;
   height: 550px;
   border-radius: 1em;
@@ -47,6 +51,11 @@ body::-webkit-scrollbar-thumb {
   backdrop-filter: blur(2.3px);
   -webkit-backdrop-filter: blur(2.3px);
   border: 1px solid rgba(255, 255, 255, 0.23);
+  /*Estilos checkbox-termos
+  .div-checkbox-termos input{
+      border: none;
+      background-color: #008F7A;
+  }*/
 }
 #principal .form-flex {
   display: flex;
