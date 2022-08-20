@@ -73,7 +73,7 @@ body::-webkit-scrollbar-thumb{
   content: "|";
   color: #008F7A;
 }
-#principal .div-nome, #principal .div-sobrenome, #principal .div-snha, #principal .div-email, #principal .div-telefone {
+#principal .div-nome, #principal .div-sobrenome, #principal .div-senha, #principal .div-email, #principal .div-telefone {
   padding: 1rem 0;
   display: block;
 }
