@@ -44,12 +44,6 @@ body::-webkit-scrollbar-thumb{
         backdrop-filter: blur(2.3px);
         -webkit-backdrop-filter: blur(2.3px);
         border: 1px solid rgba(255, 255, 255, 0.23);
-
-        /*Estilos checkbox-termos
-        .div-checkbox-termos input{
-            border: none;
-            background-color: #008F7A;
-        }*/
     }
 
     .form-flex{
@@ -77,6 +71,16 @@ body::-webkit-scrollbar-thumb{
         padding: 1rem 0;
         display: block;
     }
+
+    .div-checkbox-termos{
+        padding-top: .4rem;
+    }
+
+    /*Estilos checkbox-termos
+        .div-checkbox-termos input{
+            border: none;
+            background-color: #008F7A;
+        }*/
 
 /*Efeito label-float (Inicio)*/
 .label-float{

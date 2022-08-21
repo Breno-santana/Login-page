@@ -106,17 +106,11 @@ body::-webkit-scrollbar-thumb{
 #principal .label-float input:focus {
   border-bottom: 2px solid;
 }
-#principal .label-float input::-moz-placeholder {
-  color: transparent;
-}
-#principal .label-float input:-ms-input-placeholder {
-  color: transparent;
-}
 #principal .label-float input::placeholder {
   color: transparent;
 }
 #principal .label-float label {
-  color: rgba(128, 128, 128, 0.7529411765);
+  color: #808080c0;
   pointer-events: none;
   position: absolute;
   top: 0;
@@ -128,16 +122,6 @@ body::-webkit-scrollbar-thumb{
 }
 #principal .label-float input:focus:required:invalid {
   border-bottom: 2px solid #024e43;
-}
-#principal .label-float input:not(:-moz-placeholder-shown) + label {
-  font-size: 13px;
-  margin-top: 0;
-  color: #008F7A;
-}
-#principal .label-float input:not(:-ms-input-placeholder) + label {
-  font-size: 13px;
-  margin-top: 0;
-  color: #008F7A;
 }
 #principal .label-float input:focus + label,
 #principal .label-float input:not(:placeholder-shown) + label {
@@ -161,4 +145,4 @@ body::-webkit-scrollbar-thumb{
 }
 .div-submit-btn .btn-submit:hover {
   background-color: #024e43;
-}/*# sourceMappingURL=style2.css.map */
+}
