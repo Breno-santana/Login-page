@@ -12,30 +12,44 @@
         <section class="box-signin form-flex">
             <form action="/js/index.js" method="post" autocomplete="on">
                 <h1>Sign Up</h1>
+
+                <!--Nome-->
                 <div class="div-nome label-float">
                     <input type="text" name="nome" id="nome" required placeholder="">
                     <label for="nome">Name</label>
                 </div>  
+
+                <!--Sobremome-->
                 <div class="div-sobrenome label-float">
                     <input type="text" name="sobrenome" id="sobrenome" required placeholder="">
                     <label for="sobrenome">Last name</label> 
                 </div>  
+
+                <!--E-mail-->
                 <div class="div-email label-float">
                     <input type="email" name="email" id="email" required minlength="10" maxlength="20" placeholder=" ">
                     <label for="email">E-mail</label>
                 </div>  
+
+                <!--Senha-->
                 <div class="div-senha label-float">
                     <input type="password" name="senha" id="senha" required minlength="10" maxlength="20" placeholder=" ">
                     <label for="senha">Password</label>
-                </div>  
+                </div> 
+                
+                <!--Telefone-->
                 <div class="div-telefone label-float">
                     <input type="number" name="telefone" id="telefone" required list="none" placeholder=" "> 
                     <label for="telefone">Telephone</label> 
-                </div>  
+                </div> 
+                
+                <!--checkbox Termos/Privacidade-->
                 <div class="div-checkbox-termos">
                     <input type="checkbox" name="termos" id="termos" required>
                     <label for="termos">I accept all terms and privacy</label>
                 </div>
+
+                <!--Botão Submit-->
                 <div class="div-submit-btn">
                     <button type="submit" class="btn-submit">Sign In</button>
                 </div>
