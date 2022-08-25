@@ -26,21 +26,6 @@ body::-webkit-scrollbar-thumb{
 */
 #principal {
   margin-bottom: 9rem 0rem;
-  /*Estilos checkbox-termos
-      .div-checkbox-termos input{
-          border: none;
-          background-color: #008F7A;
-      }*/
-  /*Efeito label-float (Inicio)*/
-  /*
-  .label-float input:required:invalid + label{
-      color: red;
-  }*/
-  /*
-  .label-float input:required:invalid + label::before{
-      content: '*';
-  }*/
-  /*Efeito label-float (Fim)*/
 }
 #principal .box-signin {
   position: absolute;
